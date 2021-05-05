@@ -1,0 +1,2 @@
+Since Random Access Memory (RAM) is volatile (which loses its data when the computer is turned off) 
+Since Random Access Memory (RAM) is volatile (which loses its data when the computer is turned off) 
