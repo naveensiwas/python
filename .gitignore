@@ -1,2 +1,6 @@
+#Files directory.
+*.txt
+
+#Module and Package cache.
 __pycache__/
  *.pyc

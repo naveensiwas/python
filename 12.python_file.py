@@ -28,7 +28,7 @@ with open(file_write_dir, 'w', encoding = 'utf-8') as f:
    f.write("contains three lines\n")
 
 #Writing multiple Lines to File in Python.
-file_write_dir = os.getcwd() + '/python/files/write_tlines_test.txt'
+file_write_dir = os.getcwd() + '/python/files/write_lines_test.txt'
 with open(file_write_dir, 'w', encoding = 'utf-8') as f:
    f.writelines("Since Random Access Memory (RAM) is volatile (which loses its data when the computer is turned off) \nSince Random Access Memory (RAM) is volatile (which loses its data when the computer is turned off) \n")
 
