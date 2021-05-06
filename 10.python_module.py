@@ -1,6 +1,6 @@
 
-#Load example modules.
-import example as ex
+#Load module example.
+import module_example as ex
 
 print('Module (',ex.__name__,') successfully loaded.')
 print('Module directory : ', dir(ex))

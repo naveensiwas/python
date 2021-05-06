@@ -1,5 +1,5 @@
 
-# Python module (example)
+# Python module example
 
 def add(a, b):
    """This program adds two
