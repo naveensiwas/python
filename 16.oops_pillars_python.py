@@ -16,6 +16,7 @@ class Bird:
 class Penguin(Bird):
 
     def __init__(self):
+        #Call parent class Constructor.
         super().__init__()
         print("Penguin is ready")
 
