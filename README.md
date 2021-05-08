@@ -1,2 +1,2 @@
-## python
-Python introduction for beginners
+## Python
+Python introduction for beginners.
