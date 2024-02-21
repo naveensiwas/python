@@ -1,7 +1,7 @@
 # Python Fundamentals Every Aspiring Data Scientist Should Know
 
-Python
-------
+What is Python ?
+----------------
 
 Python is a general purpose and high level programming language.
 
