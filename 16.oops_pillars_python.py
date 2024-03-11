@@ -1,8 +1,10 @@
-#Example 3: Use of Inheritance in Python
+# Example 1: Use of Inheritance in Python
+print('>>>> Example - 1 >>>>')
 
-#Parent class
+
+# Parent class
 class Bird:
-    
+
     def __init__(self):
         print("Bird is ready")
 
@@ -12,11 +14,12 @@ class Bird:
     def swim(self):
         print("Swim faster")
 
-#Child class
+
+# Child class
 class Penguin(Bird):
 
     def __init__(self):
-        #Call parent class Constructor.
+        # Call parent class Constructor.
         super().__init__()
         print("Penguin is ready")
 
@@ -26,60 +29,72 @@ class Penguin(Bird):
     def run(self):
         print("Run faster")
 
+
 peggy = Penguin()
 peggy.whoisThis()
 peggy.swim()
 peggy.run()
 
-#Example 4: Data Encapsulation in Python
+# Example 2: Data Encapsulation in Python
+print('\n')
+print('>>>> Example - 2 >>>>')
+
+
 class Computer:
 
     def __init__(self):
-        self.__maxprice = 900
+        self.__max_price = 900
 
     def sell(self):
-        print("Selling Price: {}".format(self.__maxprice))
+        print("Selling Price: {}".format(self.__max_price))
 
     def setMaxPrice(self, price):
-        self.__maxprice = price
+        self.__max_price = price
+
 
 c = Computer()
 c.sell()
 
 # change the price
-c.__maxprice = 1000
+c.__max_price = 1000
 c.sell()
 
 # using setter function
 c.setMaxPrice(1000)
 c.sell()
 
-#Example 5: Using Polymorphism in Python
+# Example 3: Using Polymorphism in Python
+print('\n')
+print('>>>> Example - 3 >>>>')
+
+
 class Parrot:
 
     def fly(self):
         print("Parrot can fly")
-    
+
     def swim(self):
         print("Parrot can't swim")
+
 
 class Penguin:
 
     def fly(self):
         print("Penguin can't fly")
-    
+
     def swim(self):
         print("Penguin can swim")
 
-#common interface
+
+# common interface
 def flying_test(bird):
     bird.fly()
 
-#instantiate objects
+
+# instantiate objects
 blu = Parrot()
 peggy = Penguin()
 
-#passing the object
+# passing the object
 flying_test(blu)
 flying_test(peggy)
-

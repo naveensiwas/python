@@ -1,5 +1,7 @@
 # Python Local Variables
 # Example : 1
+print('>>>> Example - 1 >>>>')
+
 
 def greet():
     msg_hello = 'Hello'
@@ -14,6 +16,8 @@ greet()
 
 # Python Global Variables
 # Example : 1
+print('\n')
+print('>>>> Example - 2 >>>>')
 
 # declare global variable
 msg_hi = 'Hi'
@@ -27,7 +31,11 @@ greet_one()
 print('Global variable : ', msg_hi)
 
 # Example : 2
+print('\n')
+print('>>>> Example - 3 >>>>')
+
 # declare global variable
+
 msg_bye = 'Bye'
 
 
@@ -39,6 +47,8 @@ def greet_two():
 greet_two()
 
 # Example : 3
+print('\n')
+print('>>>> Example - 4 >>>>')
 # declare global variable
 msg_bye_bye = 'Bye Bye'
 
