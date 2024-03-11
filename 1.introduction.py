@@ -11,7 +11,7 @@ print("Hello, World!")
 
 # ===========================
 # Python Multi-lines Comments
-# ===========================
+# ===========================¬
 
 # This is a long comment
 # and it extends
@@ -31,7 +31,7 @@ def double(num):
     return 2 * num
 
 
-print(double.__doc__)
+print('Docstrings : ', double.__doc__)
 
 # ===================
 # Constants in Python
@@ -39,5 +39,5 @@ print(double.__doc__)
 
 PI = 3.14
 GRAVITY = 9.8
-print(PI)
-print(GRAVITY)
+print('Constants : ', PI)
+print('Constants : ', GRAVITY)

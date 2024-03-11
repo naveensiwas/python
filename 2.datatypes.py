@@ -1,4 +1,5 @@
 # Python Numbers
+print('>>>> Python Numbers >>>>')
 a = 5
 print(a, "is of type", type(a))
 
@@ -9,6 +10,8 @@ a = 1 + 2j
 print(a, "is complex number?", isinstance(1 + 2j, complex))
 
 # Python String
+print('\n')
+print('>>>> Python String >>>>')
 s = "This is a string"
 print(s)
 
@@ -30,6 +33,8 @@ print("s[:8] = ", s[:8])
 # TypeError: 'str' object does not support item assignment
 
 # Python List
+print('\n')
+print('>>>> Python List >>>>')
 a = [1, 2.2, 'python', 1 + 3j, 'python']
 print(a)
 
@@ -45,6 +50,8 @@ a[2] = 4
 print(a)
 
 # Python Tuple
+print('\n')
+print('>>>> Python Tuple >>>>')
 t = (5, 'program', 1 + 3j, 1.6)
 print("t = ", t)
 
@@ -57,6 +64,8 @@ print("t[0:3] = ", t[0:3])
 # TypeError: 'tuple' object does not support item assignment
 
 # Python Set
+print('\n')
+print('>>>> Python Set >>>>')
 a = {5, 2, 3, 1, 4}
 print("a = ", a)
 print(type(a))
@@ -64,6 +73,11 @@ print(type(a))
 a = {5, 2, 3, 1, 4, 2, 2, 2, 4, 5}
 print("a = ", a)
 print(type(a))
+
+a = {5, 2, 3, 1, 4, 2, 2, 2, 4, 5, 'A', 'B', 'C'}
+print("a = ", a)
+print(type(a))
+
 
 a = {5, 2, "string", 3 + 4j, 3.4}
 print("a = ", a)
@@ -78,6 +92,8 @@ a = {1, 2, 3}
 # TypeError: 'set' object does not support indexing
 
 # Python Dictionary
+print('\n')
+print('>>>> Python Dictionary >>>>')
 d = {1: 'value', 'key': 2}
 print(type(d))
 print("d[1] = ", d[1])
