@@ -1,8 +1,6 @@
 # Python map() Function
-# The map() function executes a given function to each element of an iterable (such as lists, tuples, etc.)
-# The map() applies the function it receives as an argument to each element in a sequence and returns the resulting -
-# sequence.
-
+# map() function: This function applies a given function to each item of an iterable and returns a -
+# - new iterable with the results.
 
 # Example : 1
 print('>>>> MAP Example - 1 >>>>')
@@ -37,7 +35,7 @@ result = map(lambda x, y: x + y, numbers1, numbers2)
 print('Add two lists ({} + {}) : '.format(numbers1, numbers2), list(result))
 
 # Python zip() Function
-# The zip() function takes iterables (can be zero or more), aggregates them in a tuple, and returns it.
+# zip() function: This function takes one or more iterables and aggregates them into a single iterable of tuples.
 
 # Example : 1
 print('\n')
@@ -59,10 +57,10 @@ ages = [24, 50, 18]
 for i, (name, age) in enumerate(zip(names, ages)):
     print('Aggregate two lists ({} + {}) elements : '.format(names, ages), i, name, age)
 
-
 # Python reduce() Function
-# The reduce() applies the function to the elements of the sequence, from left to right, starting with the first two -
-# elements in the sequence.
+# The reduce() function takes a function and an iterable and applies the function to the first two elements,
+# then to the result and the next element, and so on, until all elements have been processed.
+# The result is a single value.
 
 # Example : 1
 print('\n')

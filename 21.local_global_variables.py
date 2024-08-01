@@ -51,6 +51,7 @@ print('\n')
 print('>>>> Example - 4 >>>>')
 # declare global variable
 msg_bye_bye = 'Bye Bye'
+print('Global variable before update : ', msg_bye_bye)
 
 
 def greet_three():
